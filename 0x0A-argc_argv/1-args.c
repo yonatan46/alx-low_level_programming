@@ -1,17 +1,24 @@
-#include <stdio.h>
-
+#include <stdlib.h>
+#include<stdio.h>
 /**
- * main - print the name of the program
- * @argc: Count number
- * @argv: Arguments all
+ *main - print the number of parameter
  *
- * Return: Always 0 (Success)
+ *@argc: number of parameter
+ *
+ * @argv: value of parameter
+ *
+ *Return: argc
  */
 
-int main(int argc, char **argv)
+int main(int argc, char __attribute__((unused)) *argv[])
 {
-	(void) argv;
-	printf("%d\n", argc - 1);
+	int i = 0, m;
 
+	while (i < argc)
+	{
+		m = i;
+		i++;
+	}
+	printf("%d\n", m);
 	return (0);
 }

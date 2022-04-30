@@ -1,1 +1,1 @@
-0x0a
+all about argc_argv
