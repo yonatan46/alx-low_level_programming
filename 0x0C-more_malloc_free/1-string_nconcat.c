@@ -13,9 +13,12 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
     char *concat;
-    concat = malloc(sizeof(s2) * n);
     int x = 0;
     int y = 0;
+
+    concat = malloc(sizeof(s2) * n);
+    if (p == NULL)
+	    return (0);
 
     while (s1[x])
     {
