@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <unistd.h>
 /**
  * _realloc -  reallocates a memory block using malloc and free
  * @ptr: pointer
