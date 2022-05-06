@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <unistd.>
 /**
  * _memset - copy char
  * @s: string
