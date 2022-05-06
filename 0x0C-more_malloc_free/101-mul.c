@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <unistd.h>
 /**
  * main - multiplies two positive numbers
  * @argc: n arguments
