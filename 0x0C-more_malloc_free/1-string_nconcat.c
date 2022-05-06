@@ -14,20 +14,21 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
     char *concat;
     concat = malloc(sizeof(s2) * n);
     int x = 0;
+    int y = 0;
 
-    while(s1[x])
+    while (s1[x])
     {
-        concat[x]=s1[x];
+        concat[x] = s1[x];
         x++;
     }
-    int y = 0;
-    while(y < n)
+
+    while (y < n)
     {
-        concat[x]=s2[y];
+        concat[x] = s2[y];
         x++;
         y++;
     }
     concat[x] = '\0';
-    
-    return(concat);
+
+    return (concat);
 }
