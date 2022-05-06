@@ -7,6 +7,7 @@
 *@s1: destination to cat
 *@s2: source to cat 
 *@n:size to cat 
+*Return: pointer to char
 */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
