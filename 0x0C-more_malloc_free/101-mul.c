@@ -25,33 +25,33 @@ l1 = strlen(argv[1]);
 l2 = strlen(argv[2]);
 for (i = l1 - 1, j = 0; i >= 0; i--, j++)
 {
-a[j] = argv[1][i] - '0';
+num1[j] = argv[1][i] - '0';
 }
 for (i = l2 - 1, j = 0; i >= 0; i--, j++)
 {
-b[j] = argv[2][i] - '0';
+num2[j] = argv[2][i] - '0';
 }
 for (i = 0; i < l2; i++)
 {
 for (j = 0; j < l1; j++)
 {
-ans[i + j] += b[i] * a[j];
+mul[i + j] += num2[i] * num1[j];
 }
 }
 for (i = 0; i < l1 + l2; i++)
 {
-tmp = ans[i] / 10;
-ans[i] = ans[i] % 10;
-ans[i + 1] = ans[i + 1] + tmp;
+tmp = mul[i] / 10;
+mul[i] = mul[i] % 10;
+mul[i + 1] = mul[i + 1] + tmp;
 }
 for (i = l1 + l2; i >= 0; i--)
 {
-if (ans[i] > 0)
+if (mul[i] > 0)
 break;
 }
 for (; i >= 0; i--)
 {
-printf("%d", ans[i]);
+printf("%d", mul[i]);
 }
 }
 
