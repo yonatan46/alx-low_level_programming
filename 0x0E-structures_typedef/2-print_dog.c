@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdio.h>
 /**
 *print_dog - print dog
 *@d:do struck
