@@ -1,6 +1,7 @@
-#ifndef __MACRO__
-# define __MACRO__
+#ifndef __pi__
+#define __pi__
 
-# define PI 3.14159265359
+#define PI 3.14159265359
+
 
 #endif
