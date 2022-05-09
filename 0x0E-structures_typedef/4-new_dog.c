@@ -11,14 +11,13 @@
 dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *dog1;
-int nameSize = 0, ownerSize = 0;
-int loop;
+int nameSize = 0, ownerSize = 0, loop;
 
-while (name[nameSize])
+while (name[nameSize] != '\0')
 {
 nameSize++;
 }
-while (name[ownerSize])
+while (owner[ownerSize] != '\0')
 {
 ownerSize++;
 }
