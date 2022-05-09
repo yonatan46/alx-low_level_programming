@@ -47,7 +47,7 @@ free(dog1->name);
 free(dog1);
 return (NULL);
 }
-for (loop = 0; loop < ownerSize; loop++)
+for (loop = 0; loop <= ownerSize; loop++)
 dog1->owner[loop] = owner[loop];
 return (dog1);
 }
