@@ -13,7 +13,7 @@ void errors(void);
 int _strlen(char *s);
 int is_digit(char );
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
-int num1[1000], num2[1000],mul[2000]= {0};
+int num1[2000], num2[2000],mul[4000]= {0};
 int l1, l2, i, j, tmp,chkk;
 int check_error(char **argv, int argc);
 #endif
