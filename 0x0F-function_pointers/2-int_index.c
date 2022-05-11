@@ -4,7 +4,9 @@
 *@array: array
 *@cmp: function to run
 *@size: size of array
-*Return: some int
+*Return: index first element cmp function does not return 0
+*If no element matches, return -1
+*If size <= 0, return -1
 */
 
 int int_index(int *array, int size, int (*cmp)(int))
