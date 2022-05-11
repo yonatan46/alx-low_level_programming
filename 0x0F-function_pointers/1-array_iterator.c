@@ -13,7 +13,7 @@ if (array && size && action)
 {
 while (x < size)
 {
-action(array[x]);
+(*action)(array[x]);
 }
 }
 }
