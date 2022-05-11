@@ -3,11 +3,11 @@
 #include "3-calc.h"
 
 /**
- * main - main file
- * @argc: number of lines arguments
- * @argv: array of elements
- * Return: 0
- */
+* main - main file
+* @argc: number of lines arguments
+* @argv: array of elements
+* Return: 0
+*/
 
 int main(int argc, char *argv[])
 {
