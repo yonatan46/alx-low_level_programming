@@ -1,7 +1,6 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "variadic_functions.h"
 
 /**
  * sum_them_all - sum given inputs
