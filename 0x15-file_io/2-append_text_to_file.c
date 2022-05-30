@@ -2,10 +2,10 @@
 
 /**
  * append_text_to_file - to append contents to existing file
- * @filename: a file we append 
+ * @filename: a file we append
  * @text_content: things we append to the file
  *
- * Return: 1 if success or -1 
+ * Return: 1 if success or -1
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
