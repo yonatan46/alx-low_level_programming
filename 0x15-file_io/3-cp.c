@@ -3,7 +3,7 @@
 /**
  * main - copies the content of a file to another file
  * @argc: number of passed data
- * @argv: datas
+ * @argv: datasc
  *
  * Return: Always 0 (Success)
  */
